@@ -5,7 +5,7 @@
 
 A simple, drop-in performance monitoring overlay for web applications, featuring AI-powered analysis. This tool provides key performance metrics at a glance and suggests improvements, helping you optimize your user experience.
 
-![Performance Overlay Screenshot](assets/overlayperf.png)
+![Performance Overlay Screenshot](https://imgur.com/a/UrwNAER)
 
 ## Features
 
