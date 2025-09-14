@@ -1,11 +1,11 @@
 
-# AI Performance Check Overlay
+# AI Performance Check Overlay NPM Package
 
 **`@hasseneafif/ai-performance-check`**
 
 A simple, drop-in performance monitoring overlay for web applications, featuring AI-powered analysis. This tool provides key performance metrics at a glance and suggests improvements, helping you optimize your user experience.
 
-![Performance Overlay Screenshot](https://picsum.photos/400/300)
+![Performance Overlay Screenshot](assets/overlayperf.png)
 
 ## Features
 
