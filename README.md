@@ -41,8 +41,7 @@ function App() {
       {/* Your other components */}
       
       {/* Add the performance check overlay */}
-      {/* It's recommended to only render this in development environments */}
-      {process.env.NODE_ENV === 'development' && <AIPerformanceCheck />}
+      <AIPerformanceCheck /> 
     </div>
   );
 }
@@ -61,10 +60,7 @@ If you're not using React, you can import and call the `initAIPerformanceCheck` 
 import { initAIPerformanceCheck } from '@hasseneafif/ai-performance-check';
 
 // Call the function to initialize the overlay
-// It's recommended to only do this in development environments
-if (process.env.NODE_ENV === 'development') {
     initAIPerformanceCheck();
-}
 ```
 
 The function will handle DOM readiness and inject the overlay when the page is ready.

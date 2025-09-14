@@ -1,7 +1,7 @@
 
 {
   "name": "@hasseneafif/ai-performance-check",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A performance monitoring overlay with AI-powered analysis for web applications. Works with React and vanilla JavaScript.",
   "main": "dist/index.js",
   "module": "dist/index.js",
