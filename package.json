@@ -1,0 +1,47 @@
+
+{
+  "name": "@hasseneafif/ai-performance-check",
+  "version": "1.0.0",
+  "description": "A performance monitoring overlay with AI-powered analysis for web applications. Works with React and vanilla JavaScript.",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "author": "hasseneafif",
+  "license": "MIT",
+  "keywords": [
+    "react",
+    "performance",
+    "monitoring",
+    "ai",
+    "overlay",
+    "web-vitals",
+    "profiler"
+  ],
+  "files": [
+    "dist"
+  ],
+  "peerDependencies": {
+    "react": ">=16.8.0",
+    "react-dom": ">=16.8.0"
+  },
+  "peerDependenciesMeta": {
+    "react": {
+      "optional": true
+    },
+    "react-dom": {
+      "optional": true
+    }
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "typescript": "^5.0.0"
+  }
+}
