@@ -3,6 +3,10 @@
   "name": "@hasseneafif/ai-performance-check",
   "version": "1.0.2",
   "description": "A performance monitoring overlay with AI-powered analysis for web applications. Works with React and vanilla JavaScript.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hasseneafif/ai-performance-check"
+  },
   "main": "dist/index.js",
   "module": "dist/index.js",
   "types": "dist/index.d.ts",
